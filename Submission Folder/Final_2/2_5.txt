@@ -1,0 +1,1 @@
+SELECT sname FROM Provider WHERE sid IN(SELECT sid FROM Stock WHERE pid IN(SELECT pid FROM Goodies WHERE color ="Green")) AND SELECT COUNT(sid) FROM Stock WHERE sid==sid

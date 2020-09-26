@@ -1,0 +1,1 @@
+SELECT sid FROM Provider WHERE sid IN (SELECT sid FROM stock WHERE pid IN (SELECT pid FROM Goodies WHERE color='Red' ))

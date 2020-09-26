@@ -1,0 +1,1 @@
+SELECT sname FROM Provider WHERE pid IN(SELECT pid FROM Stock WHERE cost=MAX(cost) )

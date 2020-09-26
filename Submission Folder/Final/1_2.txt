@@ -1,0 +1,1 @@
+SELECT sname FRom student WHERE snum=(SELECT snum FROM course WHERE (snum==snum && cname!=cname )

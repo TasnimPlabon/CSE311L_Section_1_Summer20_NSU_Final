@@ -1,0 +1,1 @@
+SELECT FROM Student WHERE major='History' AND SELECT sname FROM Student WHERE snum=(SELECT snum FROM course WHERE name=(SELECT name FROM Class  JOIN department on department.fid= class.fid  WHERE fname= 'Ivana Teach'

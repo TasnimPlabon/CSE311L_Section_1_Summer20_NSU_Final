@@ -1,0 +1,1 @@
+SELECT pname FROM Stock WHERE pid IN(SELECT pid FROM Stock where sid=1)

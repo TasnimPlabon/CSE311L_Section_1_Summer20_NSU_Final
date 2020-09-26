@@ -1,0 +1,1 @@
+SELECT sname FROM Provider WHERE sid IN(SELECT sid FROM Goodies)
